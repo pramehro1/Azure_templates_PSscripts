@@ -1,0 +1,2 @@
+Set-AzureStorageBlobContent -File "C:\Users\BML_clon\Desktop\LearnAzure\templates\CreateVMTemplate.json" -Context $context -Container "templates"
+Set-AzureStorageBlobContent -File "C:\Users\BML_clon\Desktop\LearnAzure\templates\Parameters.json" -Context $context -Container templates
